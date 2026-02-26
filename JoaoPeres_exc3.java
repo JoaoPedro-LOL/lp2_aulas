@@ -9,7 +9,7 @@ public class JoaoPeres_exc3 {
         return valor;
     }
 
-    public static void lermatrizInt(int[][] matriz) {
+    public static void lerMatrizInt(int[][] matriz) {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {
                 matriz[i][j] = lerNumeroInteiro();
@@ -32,7 +32,7 @@ public class JoaoPeres_exc3 {
 
     public static void main(String[] args) {
         int[][] matriz = new int[6][6];
-        lermatrizInt(matriz);
+        lerMatrizInt(matriz);
         int somaDiagonal = somaDaMatrizEspecifica(matriz);
         System.out.printf("A soma da diagonal secundaria é %d\n", somaDiagonal);
     }
